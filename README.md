@@ -73,6 +73,7 @@ For this project, Metasploitable2 VM with IP address 192.168.56.101 running in a
 ---
 
 🛡️ Legal Disclaimer
+
 This tool is for educational purposes only. Do not use it to scan networks without proper authorization. Unauthorized port scanning is illegal in many jurisdictions.
 
 ---
