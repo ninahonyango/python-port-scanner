@@ -43,7 +43,7 @@ for port in range(start_port, end port +1):
         print(f" [+] Port {port} is open")
     s.close      
 ```
-Save the script as `port_scanner.py`
+Saved the script as `port_scanner.py`
 
 ---
 
