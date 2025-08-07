@@ -1,22 +1,22 @@
-# 🔍 Python Port Scanner
+# Python Port Scanner
 
 A simple command-line port scanner built with Python's `socket` library. This tool scans for open TCP ports on a target host to help identify potential exposure in a network.
 
-## 🚀 Features
+## Features
 
 - Scan for open ports on a specified host
 - Adjustable scanning range (start port to end port)
 - Simple and lightweight - no external libraries required
 - CLI-based for ease of use
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 
 - Kali Linux 
 - Metasploitable2 (Target VM) with IP address `192.168.56.101`
 - Python 3.13.2 installed in Kali Linux
 - `socket` (built-in Python networking library)
 
-## 🧪 How It Works
+## How It Works
 
 The script uses Python's `socket` library to:
 
@@ -25,7 +25,7 @@ The script uses Python's `socket` library to:
 3. Attempt to connect to each port.
 4. If a connection is successful, the port is considered open.
 
-### 🔧 The Script
+### The Script
 
 ```
 import socket
@@ -47,7 +47,7 @@ Saved the script as `port_scanner.py`
 
 ---
 
-### ▶️ Run the Script In Kali Terminal
+### Run the Script In Kali Terminal
 
 After running the script, the user is prompted to enter the target host IP address and the range of ports to scan. 
 
@@ -58,7 +58,7 @@ For this project, Metasploitable2 VM with IP address 192.168.56.101 running in a
 
 ---
 
-✅ Example Use Cases
+Example Use Cases
 
 - Check which services are exposed on your local machine
 
@@ -68,8 +68,9 @@ For this project, Metasploitable2 VM with IP address 192.168.56.101 running in a
 
 ---
 
-🛡️ Legal Disclaimer
+Legal Disclaimer
 
 This tool is for educational purposes only, and should not be used to scan networks without proper authorization. Unauthorized port scanning is illegal in many jurisdictions.
 
 ---
+
